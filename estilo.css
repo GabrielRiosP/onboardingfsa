@@ -52,8 +52,8 @@ header{
     background-size: 100%;
 }
 .bv{
+    display: block;
     text-align: center;
-    vertical-align: middle;
     line-height: 90px;
     margin-left: 630px;
     margin-right: 630px;
@@ -123,13 +123,4 @@ header{
     letter-spacing: 2px;
     border-radius: 30;
     
-}
-
-@media screen and (max-width: 768px) {
-    .bv{
-        display: block;
-    }
-    .boas_vindas{
-        display: block;
-    }
 }
