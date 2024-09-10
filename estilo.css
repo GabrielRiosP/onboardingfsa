@@ -126,5 +126,7 @@ header{
 }
 
 @media screen and (max-width: 768px) {
-    .boas_vindas
+    .bv{
+        display: block;
+    }
 }
