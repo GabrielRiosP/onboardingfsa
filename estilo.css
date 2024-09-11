@@ -4,42 +4,41 @@ body{
     padding: 0;
     font-family: Helvetica Neue,helvetica,arial,sans-serif;
 }
-header{
+header {
     background-color: #ffffff;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    width: 100%;
-    height: 10%;
-    position: fixed;
-    z-index: 10;
+    position: fixed; /* Faz a barra ficar fixa no topo */
+    width: 100%;     /* Ocupa toda a largura da tela */
+    top: 0;          /* Fixa ao topo */
+    z-index: 1000;   /* Garante que fique acima do conteúdo */
+    height: 8%;
 }
 .nav_bar {
-    list-style: none;
-    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: center;
+
 }
-.nav_bar li{
-    display: inline-block;
-    padding-left: 25px;
+.nav_bar li {
+    margin: 0 10px;
 }
 .nav_bar li a{
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease 0s;
-    color: #71afff;
+    color: rgb(9, 141, 218);
     text-decoration: none;
-
+    font-size: 1.2rem;
+    padding: 10px 15px; /* Espaçamento interno do texto */
+    transition: background-color 0.3s, color 0.3s;
 }
 .nav_bar li a:hover{
     transition: all 0.3s ease 0s;
-    color: #006eff;
+    color: #014db1;
 }
-.homepage_imagem{
-   width: 180px;
-   padding-left: 15px;
-   padding-top: 5px;
+.logo{
+    width: 280px; /* Define o tamanho da logo */
+    margin-right: 10px; /* Espaço entre a logo e os itens do menu */
+    margin-left: -30px;
+}
 
-}
 .boas_vindas{
     background-color: #111111;
     height: 700px;
