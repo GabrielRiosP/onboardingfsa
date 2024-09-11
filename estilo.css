@@ -42,27 +42,25 @@ header {
     padding-top: 4rem;
     background-color: #111111;
     height: 700px;
-    width: 100%;
-    display: block;
-    margin: auto;
     background-image: url(onboardingimg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .bv{
-    display: block;
+    width: 35%;
+    margin: 0 auto;
+    background-color: #02509B;
+    border-radius: 25px;
+}
+.bv h1{
     text-align: center;
+    height: 100px;
     line-height: 90px;
-    margin-left: 630px;
-    margin-right: 630px;
-    margin-bottom: 600px;
     color: #ffffff;
     font-size: 40px;
     font-family: "Merriweather", serif;
     font-weight: normal;
-    background-color: #02509B;
-    border-radius: 25px;
 }
 .title{
     padding-left: 600px;
