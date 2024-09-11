@@ -17,7 +17,6 @@ header {
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center;
-
 }
 .nav_bar li {
     margin: 0 10px;
