@@ -42,7 +42,7 @@ header {
     padding-top: 4rem;
     background-color: #111111;
     height: 700px;
-    background-image: url(imagens/onboardingimg.webp);
+    background-image: url(imagens\onboardingimg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
