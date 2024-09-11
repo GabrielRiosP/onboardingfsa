@@ -63,9 +63,10 @@ header {
     font-weight: normal;
 }
 .title{
+    margin-top: 50px;
     padding-left: 600px;
     padding-right: 600px;
-    color: inherit;
+    color: #676770;
     font-size: 30px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -119,4 +120,31 @@ header {
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30;
+}
+.sec_mapa{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #192024;
+}
+.sec_mapa h2{
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFF8;
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.sec_mapa h3{
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFF8;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.mapa{
+    text-align: center;
+    padding-bottom: 60px;
 }
