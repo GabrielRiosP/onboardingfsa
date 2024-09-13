@@ -44,7 +44,7 @@ header{
     padding-top: 4rem;
     background-color: #111111;
     height: 700px;
-    background-image: url(imagens\onboardingimg.webp);
+    background-image: url(imagens/onboardingimg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,13 +131,13 @@ header{
     border-radius: 30;
 }
 .sec_mapa{
-    display: flex;
+
     margin-top: 50px;
     padding-top: 50px;
     background-color: #192024;
 }
 .sec_mapa h2{
-    display: flex;
+
     justify-content: center;
     text-align: center;
     padding-top: 10px;
@@ -148,7 +148,6 @@ header{
     letter-spacing: 5px;
 }
 .sec_mapa h3{
-    display: flex;
     justify-content: center;
     text-align: center;
     padding-top: 10px;
@@ -159,7 +158,7 @@ header{
     letter-spacing: 5px;
 }
 .mapa{
-    display: flex;
+ 
     justify-content: center;
     text-align: center;
     padding-bottom: 60px;
