@@ -11,7 +11,7 @@ header{
     width: 100%;     /* Ocupa toda a largura da tela */
     top: 0;          /* Fixa ao topo */
     z-index: 1000;   /* Garante que fique acima do conteúdo */
-    height: 8%;
+    max-height: 8%;
 }
 .nav_bar {
     display: flex;
@@ -34,7 +34,7 @@ header{
     color: #014db1;
 }
 .logo{
-    width: 280px; /* Define o tamanho da logo */
+    max-width: 280px; /* Define o tamanho da logo */
     margin-right: 10px; /* Espaço entre a logo e os itens do menu */
     margin-left: -30px;
 }
@@ -87,7 +87,7 @@ header{
     line-height: 1px;
 }
 .infos_um{
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     display: flex;
     border: 1px solid #798086;
