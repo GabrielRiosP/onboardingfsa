@@ -8,12 +8,13 @@ header{
     display: flex;
     background-color: #ffffff;
     position: fixed; /* Faz a barra ficar fixa no topo */
-    width: 100%;     /* Ocupa toda a largura da tela */
+    max-width: 120rem;     /* Ocupa toda a largura da tela */
     top: 0;          /* Fixa ao topo */
     z-index: 1000;   /* Garante que fique acima do conteúdo */
     max-height: 8%;
 }
 .nav_bar {
+    width: 120rem;
     display: flex;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
