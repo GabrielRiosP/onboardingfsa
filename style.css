@@ -1,5 +1,5 @@
 body{
-    background-image: url("arte_background.jpg");
+
     margin: 0;
     padding: 0;
     font-family: Helvetica Neue,helvetica,arial,sans-serif;
@@ -46,9 +46,10 @@ header{
     padding-top: 4rem;
     background-color: #ffffff;
     height: 50rem;
-    background-image: url(imagens/onboardingimg.webp);
+    background-image: url(imagens/teste.jpg);
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .bv{
     display: flex;
