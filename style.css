@@ -41,14 +41,14 @@ header{
 }
 
 .boas_vindas{
+    max-width: 100%;
     display: flex;
     padding-top: 4rem;
-    background-color: #111111;
-    height: 700px;
+    background-color: #ffffff;
+    height: 50rem;
     background-image: url(imagens/onboardingimg.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 .bv{
     display: flex;
@@ -56,13 +56,14 @@ header{
     border-radius: 25px;
 }
 .bv h1{
-    padding-left: 30px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     background-color: #02509B;
     border-radius: 25px;
     text-align: center;
     height: 90px;
-    width: 600px;
+    max-width: 100%;
     line-height: 90px;
     color: #ffffff;
     font-size: 40px;
