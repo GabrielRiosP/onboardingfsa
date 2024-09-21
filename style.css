@@ -154,7 +154,11 @@ header{
     letter-spacing: 5px;
 }
 .mapa{
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     padding-bottom: 60px;
+}
+.mapa img{
+    max-width: 100%;
 }
