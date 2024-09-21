@@ -69,9 +69,9 @@ header{
 }
 .title{
     display: flex;
-    margin-top: 50px;
-    padding-left: 600px;
-    padding-right: 600px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
     color: #676770;
     font-size: 30px;
     text-align: center;
