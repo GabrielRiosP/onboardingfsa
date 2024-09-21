@@ -6,14 +6,13 @@ body{
 header{
     display: flex;
     background-color: #ffffff;
-
-    max-width: 120rem;     /* Ocupa toda a largura da tela */
+    max-width: 100%;     /* Ocupa toda a largura da tela */
     top: 0;          /* Fixa ao topo */
     z-index: 1000;   /* Garante que fique acima do conteúdo */
     max-height: 8%;
 }
 .nav_bar {
-    width: 120rem;
+    max-width: 120rem;
     display: flex;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
@@ -26,7 +25,7 @@ header{
     color: rgb(9, 141, 218);
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 10px 15px; /* Espaçamento interno do texto */
+    padding: 10px 5px; /* Espaçamento interno do texto */
     transition: background-color 0.3s, color 0.3s;
 }
 .nav_bar li a:hover{
@@ -42,7 +41,7 @@ header{
 .boas_vindas{
     max-width: 100%;
     display: flex;
-    padding-top: 4rem;
+    padding-top: 1rem;
     background-color: #ffffff;
 }
 .bv{
@@ -57,7 +56,7 @@ header{
     background-color: #02509B;
     border-radius: 25px;
     text-align: center;
-    height: 90px;
+    max-height: 90px;
     max-width: 100%;
     line-height: 90px;
     color: #ffffff;
