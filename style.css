@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
     padding: 0;
     font-family: Helvetica Neue,helvetica,arial,sans-serif;
@@ -7,7 +6,7 @@ body{
 header{
     display: flex;
     background-color: #ffffff;
-    position: fixed; /* Faz a barra ficar fixa no topo */
+
     max-width: 120rem;     /* Ocupa toda a largura da tela */
     top: 0;          /* Fixa ao topo */
     z-index: 1000;   /* Garante que fique acima do conteúdo */
@@ -45,11 +44,6 @@ header{
     display: flex;
     padding-top: 4rem;
     background-color: #ffffff;
-    height: 50rem;
-    background-image: url(imagens/teste.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 .bv{
     display: flex;
@@ -70,6 +64,9 @@ header{
     font-size: 40px;
     font-family: "Merriweather", serif;
     font-weight: normal;
+}
+.bv_logo{
+    max-width: 100%;
 }
 .title{
     display: flex;
