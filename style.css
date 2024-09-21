@@ -83,10 +83,11 @@ header{
     justify-content: center;
     text-align: center;
     line-height: 1px;
+    max-width: 100%;
 }
 .infos_um{
     max-width: 200px;
-    height: 50px;
+    max-height: 100px;
     display: flex;
     border: 1px solid #798086;
     padding: 15px;
@@ -96,12 +97,12 @@ header{
     color: #676770;
     line-height: 30px;
     letter-spacing: 2px;
-    border-radius: 30;
+    border-radius: 30px;
     margin-right: 40px;
 }
 .infos_dois{
-    width: 200px;
-    height: 50px;
+    max-width: 200px;
+    max-height: 100px;
     display: flex;
     border: 1px solid #798086;
     padding: 15px;
@@ -111,12 +112,12 @@ header{
     color: #676770;
     line-height: 30px;
     letter-spacing: 2px;
-    border-radius: 30;
+    border-radius: 30px;
     margin-right: 40px;
 }
 .infos_tres{
-    width: 200px;
-    height: 50px;
+    max-width: 200px;
+    max-height: 100px;
     display: flex;
     border: 1px solid #798086;
     padding: 15px;
@@ -126,9 +127,12 @@ header{
     color: #676770;
     line-height: 30px;
     letter-spacing: 2px;
-    border-radius: 30;
+    border-radius: 30px;
+    margin-right: 40px;
+
 }
 .sec_mapa{
+    max-width: 100%;
     margin-top: 50px;
     padding-top: 50px;
     background-color: #192024;
