@@ -47,7 +47,6 @@ header{
 .bv{
     display: flex;
     margin: 0 auto;
-    border-radius: 25px;
 }
 .bv h1{
     padding-left: 1rem;
@@ -56,7 +55,7 @@ header{
     background-color: #02509B;
     border-radius: 25px;
     text-align: center;
-    max-height: 90px;
+    max-height: 100%;
     max-width: 100%;
     line-height: 90px;
     color: #ffffff;
