@@ -111,7 +111,6 @@ header{
     display: flex;
     max-width: 100%;
     border: 1px solid #798086;
-
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #676770;
@@ -126,11 +125,11 @@ header{
     display: flex;
     max-width: 100%;
     border: 1px solid #798086;
-    padding: 15px;
-    padding-bottom: 20px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #676770;
+    padding: 15px;
+    padding-bottom: 20px;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
