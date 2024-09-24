@@ -94,39 +94,37 @@ header{
     max-width: 100%;
 }
 .infos_um{
-    max-width: 200px;
-    max-height: 100px;
     display: flex;
+    max-width: 100%;
     border: 1px solid #798086;
-    padding: 15px;
-    padding-bottom: 20px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #676770;
+    padding: 15px;
+    padding-bottom: 20px;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
     margin-right: 40px;
 }
 .infos_dois{
-    max-width: 200px;
-    max-height: 100px;
     display: flex;
+    max-width: 100%;
     border: 1px solid #798086;
-    padding: 15px;
-    padding-bottom: 20px;
+
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #676770;
+    padding: 15px;
+    padding-bottom: 20px;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
     margin-right: 40px;
 }
 .infos_tres{
-    max-width: 200px;
-    max-height: 100px;
     display: flex;
+    max-width: 100%;
     border: 1px solid #798086;
     padding: 15px;
     padding-bottom: 20px;
