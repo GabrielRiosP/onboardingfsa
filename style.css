@@ -13,7 +13,7 @@ header{
 }
 .nav_bar {
     display: flex;
-    max-width: 100%;
+    max-width: 70%;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center;
@@ -39,7 +39,7 @@ header{
 .logo{
     display: flex;
     max-width: 100%;
-    min-width: 2rem;
+    min-width: 1.5rem;
     width: auto;
     height: auto;
     margin-right: 0.5rem;
