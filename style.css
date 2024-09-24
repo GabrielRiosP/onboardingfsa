@@ -12,8 +12,8 @@ header{
     max-height: 8%;
 }
 .nav_bar {
-    max-width: 100%;
     display: flex;
+    max-width: 100%;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center;
@@ -27,7 +27,7 @@ header{
     color: rgb(9, 141, 218);
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 10px 5px; /* Espaçamento interno do texto */
+    padding: 1rem 0.5rem; /* Espaçamento interno do texto */
     transition: background-color 0.3s, color 0.3s;
     max-width: 100%;
 }
@@ -36,7 +36,7 @@ header{
     color: #014db1;
 }
 .logo{
-    max-width: 280px; /* Define o tamanho da logo */
+    max-width: 100%; /* Define o tamanho da logo */
     margin-right: 10px; /* Espaço entre a logo e os itens do menu */
     margin-left: -30px;
 }
