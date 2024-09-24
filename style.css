@@ -19,6 +19,7 @@ header{
     align-items: center;
 }
 .nav_bar li {
+    display: flex;
     margin: 0 10px;
     max-width: 100%;
 }
@@ -28,6 +29,7 @@ header{
     font-size: 1.2rem;
     padding: 10px 5px; /* Espaçamento interno do texto */
     transition: background-color 0.3s, color 0.3s;
+    max-width: 100%;
 }
 .nav_bar li a:hover{
     transition: all 0.3s ease 0s;
