@@ -20,6 +20,7 @@ header{
 }
 .nav_bar li {
     margin: 0 10px;
+    max-width: 100%;
 }
 .nav_bar li a{
     color: rgb(9, 141, 218);
