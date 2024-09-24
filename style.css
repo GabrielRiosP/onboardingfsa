@@ -13,7 +13,7 @@ header{
 }
 .nav_bar {
     display: flex;
-    max-width: 60%;
+    max-width: 100%;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center;
