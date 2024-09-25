@@ -6,24 +6,21 @@ body{
 header{
     display: flex;
     background-color: #ffffff;
-    max-width: 100%;     /* Ocupa toda a largura da tela */
+    max-width: 90%;     /* Ocupa toda a largura da tela */
     top: 0;          /* Fixa ao topo */
     z-index: 1000;   /* Garante que fique acima do conteúdo */
     max-height: 8%;
 }
 .nav_bar {
     display: flex;
-    max-width: 70%;
     list-style-type: none;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center;
 }
-.nav_bar li {
+.itens_nav{
     display: flex;
     margin: 0 10px;
     max-width: 100%;
-}
-.nav_bar li a{
     display: flex;
     max-width: 100%;
     color: rgb(9, 141, 218);
@@ -31,18 +28,18 @@ header{
     font-size: 1.2rem;
     padding: 1rem 0.5rem; /* Espaçamento interno do texto */
     transition: background-color 0.3s, color 0.3s;
-}
-.nav_bar li a:hover{
     transition: all 0.3s ease 0s;
     color: #014db1;
 }
 .logo{
-    display: flex;
-    max-width: 80%;
-    min-width: 1.5rem;
-    width: auto;
-    height: auto;
+    display: inline-block;
+    max-width: 10%;
+    min-width: 30%;
     margin-left: -35px;
+}
+.logo img{
+    max-width: 80%;
+
 }
 
 .boas_vindas{
@@ -73,7 +70,7 @@ header{
 .bv_logo{
     max-width: 100%;
 }
-.title{
+.title h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,10 +94,9 @@ header{
     max-width: 100%;
     border: 1px solid #798086;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #676770;
-    padding: 15px;
-    padding-bottom: 20px;
+    padding: 1rem;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
@@ -111,10 +107,9 @@ header{
     max-width: 100%;
     border: 1px solid #798086;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #676770;
-    padding: 15px;
-    padding-bottom: 20px;
+    padding: 1rem;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
@@ -125,10 +120,9 @@ header{
     max-width: 100%;
     border: 1px solid #798086;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #676770;
-    padding: 15px;
-    padding-bottom: 20px;
+    padding: 1rem;
     line-height: 30px;
     letter-spacing: 2px;
     border-radius: 30px;
@@ -169,4 +163,35 @@ header{
 }
 .mapa img{
     max-width: 100%;
+}
+.legenda_mapa{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    color: #676770;
+}
+.historia{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.historia h1{
+    max-width: 100%;
+    color: #676770;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.historia p{
+    max-width: 100%;
+    color: #87879e;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
