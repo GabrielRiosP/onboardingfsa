@@ -170,6 +170,9 @@ header{
     font-size: 1.1rem;
     color: #87879e;
 }
+.legenda_mapa ul{
+    list-style-type: none;
+}
 .historia{
     display: flex;
     justify-content: center;
