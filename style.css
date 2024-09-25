@@ -6,15 +6,15 @@ body{
 header{
     display: flex;
     background-color: #ffffff;
-    max-width: 90%;     /* Ocupa toda a largura da tela */
-    top: 0;          /* Fixa ao topo */
-    z-index: 1000;   /* Garante que fique acima do conteúdo */
+    max-width: 90%;
+    top: 0;
+    z-index: 1000;
     max-height: 8%;
 }
 .nav_bar {
     display: flex;
     list-style-type: none;
-    justify-content: flex-start; /* Alinha os itens à esquerda */
+    justify-content: flex-start;
     align-items: center;
 }
 .itens_nav{
@@ -26,7 +26,7 @@ header{
     color: rgb(9, 141, 218);
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 1rem 0.5rem; /* Espaçamento interno do texto */
+    padding: 1rem 0.5rem;
     transition: background-color 0.3s, color 0.3s;
     transition: all 0.3s ease 0s;
     color: #014db1;
@@ -39,9 +39,7 @@ header{
 }
 .logo img{
     max-width: 80%;
-
 }
-
 .boas_vindas{
     max-width: 100%;
     display: flex;
