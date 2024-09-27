@@ -228,6 +228,15 @@ header{
 .sobre{
     max-width: 100%;
 }
+
+.img_sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_sobre img{
+    max-width: 100%;
+}
 .sobre h1{
     font-size: 30px;
     text-align: center;
