@@ -226,20 +226,23 @@ header{
 }
 .moodle_imagens{
     display: flex;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
+}
+.moodle_imagens img{
+    display: flex;
+    max-width: 100%;
 }
 .sobre{
     max-width: 100%;
 }
-
 .img_sobre{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img_sobre img{
+    display: flex;
     max-width: 100%;
 }
 .sobre h1{
