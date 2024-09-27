@@ -11,21 +11,25 @@ header{
     z-index: 1000;
     max-height: 8%;
 }
-.nav_bar {
+.nav_bar{
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
     align-items: center;
 }
+.div_nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 150px;
+}
 .itens_nav{
     display: flex;
     margin: 0 10px;
     max-width: 100%;
-    display: flex;
-    max-width: 100%;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 1rem 0.5rem;
     transition: background-color 0.3s, color 0.3s;
     transition: all 0.3s ease 0s;
     color: #014db1;
@@ -35,13 +39,14 @@ header{
     color: rgb(1, 40, 78);
 }
 .logo{
-    display: inline-block;
-    max-width: 10%;
-    min-width: 30%;
+    max-width: 25%;
+    height: auto;
+    display: flex;
     margin-left: -35px;
 }
 .logo img{
-    max-width: 80%;
+    max-width: 100%;
+    height: auto;
 }
 .boas_vindas{
     max-width: 100%;
