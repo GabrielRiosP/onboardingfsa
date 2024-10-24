@@ -289,3 +289,18 @@ header{
 .google_maps{
     max-width: 100%;
 }
+.jogo{
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #192024;
+}
+.jogo h2{
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFF8;;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
