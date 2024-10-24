@@ -304,3 +304,42 @@ header{
     font-size: 35px;
     letter-spacing: 3px;
 }
+.jogo p{
+    max-width: 100%;
+    color: #FFFFF8;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.forms{
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #192024;
+}
+.forms h2{
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFF8;;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.forms p{
+    max-width: 100%;
+    color: #FFFFF8;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.i_forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
