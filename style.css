@@ -182,7 +182,13 @@ header{
     list-style-type: none;
 }
 .legenda_title{
-    padding-left: 10px;
+    max-width: 100%;
+    color: #565674;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 .historia{
     display: flex;
