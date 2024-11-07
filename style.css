@@ -181,10 +181,14 @@ header{
 .legenda_mapa ul{
     list-style-type: none;
 }
+.legenda_title{
+    padding-left: 10px;
+}
 .historia{
     display: flex;
     justify-content: center;
     max-width: 100%;
+    padding: 10px;
 }
 .historia h1{
     max-width: 100%;
@@ -223,6 +227,7 @@ header{
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
+    padding: 10px;
 }
 .moodle_imagens{
     display: flex;
